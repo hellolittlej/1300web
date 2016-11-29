@@ -2,6 +2,16 @@
 	text-align: center;	
 }
 
+
+body {
+    background-color: #f2f2f2;
+}
+
+p {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #383838;
+}
+
 #top {
     z-index: 1;
     background-color: #ffffff;
@@ -13,30 +23,38 @@
 
 #banner {
     background-color: #ffffff;
-    text-align: center;
-	font-family: fantasy;
-    font-size: 1.2em;
-    color: #ff884d;
-    height: 7em;
+    height: 10em;
     width: 100%;
     padding-top: 0.5em;
 }
 
+#banner h1 {
+    font-family: fantasy;
+    font-size: 4em;
+    color: #1ed3ea;
+    padding-left: 6em;
+    padding-top: 0.2em;
+}
+
+#banner img {
+    float: left;
+    padding-left: 0.5em;
+}
+
 #global_nav {
     background-color: #ffffff;
-    border-top: solid 2px red;
-    border-bottom: solid 2px red;
+    border-top: solid 1px gray;
     font-family: courier, sans-serif;
     height: 2em;
     margin-right: auto;
     margin-bottom: 0.5em;
     margin-left: auto;
-    padding-top: 0.5em;
+    padding-top: 1em;
     padding-bottom: 0.5em;
     text-align: center;
 }
 
-#container {
+/*#container {
     z-index: 2;
     background-color: #ffffff;
     opacity: 0.7;
@@ -44,10 +62,85 @@
     margin-right: 5%;
     margin-left: 40%;
     max-width: 700px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+}*/
+
+#container {
+    margin:0 auto;
+    margin-top: 13em;
+    max-width: 960px;
 }
 
-body {
-    /*http://nutritiouslife.com/wp-content/uploads/2011/09/Apples-2.jpg*/
+#content {
+    background-color: white;
+    margin-top: 8em;
+    margin-left: 0em;
+    padding: 0.5em;
+    width: 960px;
+    height: 400px;
+}
+
+#content figure {
+    display: block;
+    margin-left: 2em;
+    margin-top: 3em;
+}
+
+#text {
+    height: 300px;
+    overflow:scroll;
+    display: block;
+    text-align: justify;
+    margin-left: 30em;
+    margin-top: -20em;
+    padding-right: 1em;
+}
+
+#container2 {
+    margin:0 auto;
+    max-width: 960px;
+}
+
+#left {
+    background-color: white;
+    float:left;
+    margin-top: 4em;
+    margin-left: 0.6em;
+    width: 300px;
+    height: 400px;
+}
+
+#center {
+    background-color: white;
+    float: left;
+    margin-top: 4em;
+    margin-left: 28px;
+    width: 300px;
+    height: 400px;
+}
+
+#center figure {
+    display: block;
+    margin-top: 2.2em;
+    margin-left: 2em;
+    min-width: 100%;
+
+}
+
+#right {
+    background-color: white;
+    float: left;
+    margin-top: 4em;
+    margin-left: 22px;
+    width: 300px;
+    height: 400px;
+}
+
+/*body {
+    //http://nutritiouslife.com/wp-content/uploads/2011/09/Apples-2.jpg
 	background-image: url("../images/background.jpg");
     background-size: 100% 100%;
     background-position: 0px 196px;
@@ -55,9 +148,4 @@ body {
 	background-attachment: fixed;
     margin-left: auto;
     margin-right: auto;
-}
-
-p {
-    font-family: "Lucida Console", Monaco, monospace;
-    color: red;
-}
+}*/
