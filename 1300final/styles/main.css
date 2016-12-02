@@ -30,25 +30,47 @@ h2 {
 }
 
 #banner img {
-    float: left;
-    padding-top: 1em;
-    padding-left: 10em;
+    float: right;
+    padding-top: 0.5em;
+    padding-right: 5em;
 }
 
 #banner h1 {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 2em;
     color: #383838;
-    padding-left: 22em;
+    padding-top: 0.6em;
+    padding-left: 1em;
 }
 
 #global_nav {
-    position: absolute;
-    height: 2em;
-    margin-left: 51em;
+    list-style-type: none;
     margin-top: -2em;
-
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
 }
+
+#global_nav li {
+    float: right;
+}
+
+
+#global_nav li a {
+    display: block;
+    color: #383838;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1em;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 90px;
+}
+
+#global_nav li a:hover {
+    background-color: #f2f2f2;
+}
+
 
 #container {
     margin:0 auto;
@@ -58,7 +80,7 @@ h2 {
 
 #content {
     background-color: white;
-    margin-top: 8em;
+    margin-top: 9em;
     margin-left: 0em;
     padding: 0.2em;
     width: 960px;
