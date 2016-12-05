@@ -1,0 +1,165 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #e6e6e6;
+    margin: 0;
+    height: 100%;
+}
+
+p {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #383838;
+}
+
+h2 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.2em;
+    color: #383838;
+    text-align: center;
+}
+
+#top {
+    z-index: 1;   
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+#banner {
+    background-color: white;
+    height: 5%;
+    width: 100%;
+    padding-top: 0.5em;
+}
+
+#banner img {
+    float: right;
+    padding-top: 0.5em;
+    padding-right: 5em;
+}
+
+#banner h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 2em;
+    color: #383838;
+    padding-top: 0.6em;
+    padding-left: 1em;
+}
+
+#global_nav {
+    list-style-type: none;
+    margin-top: -2em;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+#global_nav li {
+    float: right;
+}
+
+#global_nav li a {
+    display: block;
+    color: #383838;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1em;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 90px;
+}
+
+#global_nav li a:hover {
+    background-color: #f2f2f2;
+}
+
+
+#container {
+    margin:0 auto;
+    margin-top: 10%;
+    width: 90%;
+    overflow: auto;
+}
+
+#vendor {
+    position: relative;
+    background-color: white;
+    float: left;
+    margin-top: 2%;
+    padding: 2%;
+    width: 26%;
+    height: 100%;
+}
+
+#imageblock {
+    position: relative;
+    background-color: white;
+    margin-top: 2%;
+    margin-left: 32%;
+    padding-bottom: 2%;
+    width: 65%;
+    height: 100%:;
+}
+
+#imageblock img{
+    position: relative;
+    padding-left: 6%;
+    padding-top: 4%;
+    width: 87%;
+    height: 50%;
+}
+
+#container2 {
+    margin:0 auto;
+    width: 90%;
+    overflow: auto;
+}
+
+
+#image {
+    position: relative;
+    float: left;
+    background-color: white;
+    margin-top: 3%;
+    padding: 2%;
+    width: 46%;
+    height: 100%;
+}
+
+#image img {
+    position: relative;
+    padding-top: 1%;
+    padding-left: 1%;
+    width: 98%;
+    height: 95%;
+}
+
+
+#text {
+    position: relative;
+    background-color: white;
+    text-align: justify;
+    margin-top: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    margin-left: 53%;
+    width: 40%;
+    height: 100%;
+}
+
+
+#footer {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+    height: 30px;
+}
+
+#footer span {
+    margin-top: 0.4em;
+    display: inline-block;
+}
